@@ -26,9 +26,9 @@ internal
 <body>
     <header>
         <!-- navigation bar -->
-        <div>
-            <img src="assets/img/sample_logo.png" alt="this is alt tag">
-            <nav>
+        <div class="navigation_bar">
+            <img src="assets/img/sample_logo.png" alt="this is alt tag" class="header_logo">
+            <nav class="main_navigation">
                 <ul>
                     <!--
                     inline example
@@ -39,5 +39,6 @@ internal
                     <li>Contact</li>
                 </ul>
             </nav>
+            <div class="clearfix"></div>
         </div>
     </header>

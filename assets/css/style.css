@@ -1,12 +1,91 @@
 /*
     normalize
 */
+body{
+    padding: 0;
+    margin: 0;
+}
 
-
+.clearfix{
+    clear: both;
+}
 /*
 Custom CSS
 */
 p{
     font-size: 18px;
     color: #f26a09;
+}
+
+header {
+    background: #116b8e;
+}
+
+.navigation_bar{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*
+    margin: top right bottom left;
+*/
+.header_logo {
+    width: 180px;
+    height: auto;
+}
+
+nav {
+    float: right;
+}
+.header_logo {
+    width: 180px;
+    height: auto;
+    float: left;
+}
+
+nav.main_navigation ul li {
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+section#banner {
+    background: url("../img/179.jpg");
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: cover;
+    background-position: center;
+}
+.main_container {
+    width: 1140px;
+    margin: 0 auto;
+    min-height: 400px;
+    padding-top: 25px;
+}
+
+#banner .main_container{
+    color: #fff;
+
+}
+
+.grid_3_1 {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+}
+
+img.col_3_img {
+    width: 100%;
+    padding: 15px;
+}
+
+footer {
+    background: #444;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
